@@ -1,0 +1,7 @@
+echo "enter limit"
+read limit
+echo "The first $limit natural numbers are :"
+for((i=1;i<=$limit;i++))
+do
+echo -e "$i"
+done
