@@ -1,0 +1,24 @@
+echo "enter two numbers:"
+read num1 num2
+while(true)
+do
+echo -e "enter the operation:\n1:addition\n2:
+read op
+case $op in
+1) sum=$[$num1+$num2]
+echo "Sum=$sum";;
+2) dif=$[$num1-$num2]
+echo "Difference=$dif";;
+3) pro=$[$num1*$num2]
+echo "Product=$pro";;
+4) quo=$[$num1/$num2]
+echo "Quotient=$quo";;
+*)echo "wrong choice!";;
+esac
+echo do you want to continue enter 1 for yes:
+read choice
+if(($choice!=1))
+then 
+exit 0
+fi
+done
