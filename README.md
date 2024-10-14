@@ -8,7 +8,7 @@ This repository contains basic C programs demonstrating fundamental concepts, su
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - Programs for calculating the biggest of two numbers.
